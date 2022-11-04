@@ -3,8 +3,7 @@ name: CSU Library CheckIn
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: '30 23 * * *'
+
 
 jobs:
   check-in:
