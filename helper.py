@@ -212,7 +212,7 @@ class CSULibrary(object):
         '''
         url = "http://libzw.csu.edu.cn/api.php/v3areadays/"+str(self.area[i])
         headers = {
-            'Referer': 'http://libzw.csu.edu.cn/home/web/seat/area/1'
+            'Referer': 'http://libzw.csu.edu.cn/home/web/seat/area/28'
         }
         response = self.client.get(url, headers=headers)
         return response.json()["data"]["list"][0]["id"], response.json()["data"]["list"][1]["id"]
