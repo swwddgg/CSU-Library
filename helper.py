@@ -110,7 +110,7 @@ class CSULibrary(object):
             url = "http://libzw.csu.edu.cn/api.php/spaces/" + \
                 str(self.seatid[i])+"/book"
             headers = {
-                'Referer': 'http://libzw.csu.edu.cn/home/web/seat/area/1'
+                'Referer': 'http://libzw.csu.edu.cn/home/web/seat/area/28'
             }
             data = {
                 'access_token': access_token,
